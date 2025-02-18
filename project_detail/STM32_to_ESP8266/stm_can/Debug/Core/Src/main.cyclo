@@ -1,0 +1,16 @@
+../Core/Src/main.c:123:5:main	2
+../Core/Src/main.c:181:5:ReadHeatFlameSensor	2
+../Core/Src/main.c:203:5:ReadMotionSensor	2
+../Core/Src/main.c:226:5:CheckSmokeAndControlLED	2
+../Core/Src/main.c:248:6:BMP180_Init	1
+../Core/Src/main.c:254:6:BMP180_ReadCalibrationData	1
+../Core/Src/main.c:273:9:BMP180_ReadRawTemperature	1
+../Core/Src/main.c:285:7:BMP180_GetTemperature	2
+../Core/Src/main.c:298:6:CAN_Filter_Config	2
+../Core/Src/main.c:320:6:CAN_Transmit	2
+../Core/Src/main.c:348:6:SystemClock_Config	3
+../Core/Src/main.c:391:13:MX_CAN2_Init	2
+../Core/Src/main.c:428:13:MX_I2C1_Init	2
+../Core/Src/main.c:462:13:MX_GPIO_Init	1
+../Core/Src/main.c:506:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:523:6:Error_Handler	1

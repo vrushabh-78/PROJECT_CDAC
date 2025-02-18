@@ -1,0 +1,50 @@
+!SESSION 2024-12-29 10:52:43.723 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  /home/sunbeam/Sensor-Network-using-CAN-and-IOT/STM32_to_ESP32.
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/sunbeam/Sensor-Network-using-CAN-and-IOT/STM32_to_ESP32.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-29 10:53:22.902
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-29 10:53:22.903
+!MESSAGE Log4j2 initialized with config file /home/sunbeam/Sensor-Network-using-CAN-and-IOT/STM32_to_ESP32./.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-29 10:53:28.212
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.ide 4 0 2024-12-29 10:55:19.170
+!MESSAGE Could not import project located at /home/sunbeam/Sensor-Network-using-CAN-and-IOT/STM32_to_ESP32.
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /home/sunbeam/Sensor-Network-using-CAN-and-IOT/STM32_to_ESP32.
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:564)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:211)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:305)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:291)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:603)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:551)
+	... 2 more
+!SESSION 2024-12-29 10:57:12.107 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-29 10:57:21.028
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-29 10:57:21.030
+!MESSAGE Log4j2 initialized with config file /home/sunbeam/Sensor-Network-using-CAN-and-IOT/STM32_to_ESP32./.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-29 10:57:25.981
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-29 11:01:37.152
+!MESSAGE Indexed 'stm_can' (36 sources, 100 headers) in 9.57 sec: 7,831 declarations; 50,037 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)

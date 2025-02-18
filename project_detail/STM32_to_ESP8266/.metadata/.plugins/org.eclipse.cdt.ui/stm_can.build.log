@@ -1,0 +1,10 @@
+12:07:37 **** Incremental Build of configuration Debug for project stm_can ****
+make -j4 all 
+arm-none-eabi-size  stm_can.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17224	     12	   1844	  19080	   4a88	stm_can.elf
+Finished building: default.size.stdout
+ 
+
+12:07:39 Build Finished. 0 errors, 0 warnings. (took 1s.964ms)
+
